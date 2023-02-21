@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SnN Register</title>
+    <link rel="stylesheet" href="../Bootstrap/bootstrap-5.2.3-distCSS/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container vh-100">
+        <div class="form m-5 p-4 border">
+            <div class="d-flex justify-content-between align-items-between">
+                <span>Personal Information</span>
+                <span>Fill Up required(<span class="text-danger">*</span>) </span>
+            </div>
+            <div class="row">
+                <!-- First Column  -->
+                <div class="col-12 col-lg-4 pt-4">
+                    <!-- Firstname -->
+                    <div class="group mb-1">
+                        <span><small>Firstname</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="firstname" id="firstname" class="form-control" placeholder="Enter Firstname" >
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <!-- Present Address -->
+                    <div class="group mb-1">
+                        <span><small>Present Address</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="PresentAddress" id="PresentAddress" class="form-control" placeholder="Enter Present Address">
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <!-- Email Address -->
+                    <div class="group mb-1">
+                        <span><small>Email Address</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="email" name="EmailAddress" id="EmailAddress" class="form-control" placeholder="Enter Email Address">
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <!-- Age -->
+                    <div class="group mb-1">
+                        <span><small>Age</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="number" name="Age" id="Age" class="form-control" placeholder="Enter Age">
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <!-- Father's Name -->
+                    <div class="group mb-1">
+                        <span><small>Father's Name</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="FatherName" id="FatherName" class="form-control" placeholder="Enter Father's Name">
+                        </div>
+                    </div>
+                    <!-- Mother's Name -->
+                    <div class="group mb-1">
+                        <span><small>Mother's Name</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="MotherName" id="MotherName" class="form-control" placeholder="Enter Mother's Name">
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Column -->
+                <div class="col-12 col-lg-4 pt-4">
+                    <!-- Middle Name -->
+                    <div class="group mb-1">
+                        <span><small>Middle Name</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="MiddleName" id="MiddleName" class="form-control" placeholder="Enter Middle Name">
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <!-- Phone Number -->
+                    <div class="group mb-1">
+                        <span><small>Phone Number</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="PhoneNumber" id="PhoneNumber" class="form-control" placeholder="Enter Phone Number">
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <!-- Gender -->
+                    <div class="group mb-1">
+                        <span><small>Gender</small></span>
+                        <div class="input-group input-group-sm">
+                            <select name="gender" id="gender" class="form-control">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <!-- 4 Digit Code -->
+                    <div class="group mb-1">
+                        <span><small>4 Digit Code</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="number" name="4DigitCode" id="4DigitCode" class="form-control" placeholder="Enter Own 4 Digit Code">
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <!-- Father's Occupation -->
+                    <div class="group mb-1">
+                        <span><small>Father's Occupation</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="FatherOccupation" id="FatherOccupation" class="form-control" placeholder="Enter Father's Occupation">
+                        </div>
+                    </div>
+                    <!-- Mother's Occupation -->
+                    <div class="group mb-1">
+                        <span><small>Mother's Occupation</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="MotherOccupation" id="MotherOccupation" class="form-control" placeholder="Enter Mother's Occupation">
+                        </div>
+                    </div>
+                </div>
+                <!-- Third Colomn -->
+                <div class="col-12 col-lg-4 pt-4">
+                    <!-- Last Name -->
+                    <div class="group mb-1">
+                        <span><small>Last Name</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="LastName" id="LastName" class="form-control" placeholder="Enter Last Name">
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <!-- Telephone Number -->
+                    <div class="group mb-1">
+                        <span><small>Telephone Number (Optional)</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="TelephoneNumber" id="TelephoneNumber" class="form-control" placeholder="Enter Telephone Number">
+                        </div>
+                    </div>
+                    <!-- Birthday -->
+                    <div class="group mb-1">
+                        <span><small>Birthday</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="date" name="Birthday" id="Birthday" class="form-control" placeholder="Enter Birthday">
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <!-- 7 Digit Code -->
+                    <div class="group mb-1">
+                        <span><small>7 Digit Code</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="number" name="7DigitCode" id="7DigitCode" class="form-control" placeholder="Enter Own 7 Digit Code">
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <!-- Father's Phone Number or Email -->
+                    <div class="group mb-1">
+                        <span><small>Father's Phone Number or Email</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="FatherPhoneNumberEmail" id="FatherPhoneNumberEmail" class="form-control" placeholder="Enter Father's Phone Number or Email">
+                        </div>
+                    </div>
+                    <!-- Mother's Phone Number or Email -->
+                    <div class="group mb-1">
+                        <span><small>Mother's Phone Number or Email</small></span>
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="MotherPhoneNumberEmail" id="MotherPhoneNumberEmail" class="form-control" placeholder="Enter Mother's Phone Number or Email">
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center m-5">
+                    <div class="col-12 col-lg-7 bg-light border mt-5 p-5">
+                        <span>
+                            Password must have at least 6 and above character only<span class="text-danger">*</span><br>
+                            Password first letter should be Uppercase<span class="text-danger">*</span><br>
+                            Password should not be forgotten<span class="text-danger">*</span>
+                        </span>
+                        <div class="d-flex justify-content-center mt-4">
+                            <div class="col-12 col-lg-8">
+                                <span><small>Password</small></span>
+                                <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                                <span class="mt-3"><small>Re-type Password</small></span>
+                                <input type="password" class="form-control" name="repassword" id="repassword" placeholder="Re-type Password">
+                                <small class="passwordConformation text-danger">
+                                    <div id="passwordConfirmation" style="position: absolute;">
+                                        
+                                    </div>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-5">
+                            <div class="col-5">
+                                <input type="button" value="Create Account" class="form-control btn btn-outline-primary" name="btnCreateAccount" id="btnCreateAccount">
+                            </div>
+                        </d-flex>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <!-- Error result -->
+                    <div class="scrollable col-12 col-lg-9 mt-3">
+                    <span>Error Result's Here!</span>
+                        <div class="errors text-center">
+                            <div id="error" class="text-danger"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex justify-content-center align-items-end">
+                    <!-- Next Form  -->
+                    <div class="btnNext d-flex justify-content-between align-items-between input-group-sm">
+                        <select name="userType" id="Usertype" class="form-control me-2" style="height: 45px;">
+                            <option value="SelectUserType">Select User Type</option>
+                            <option value="User">User</option>
+                            <option value="Admin">Admin</option>
+                        </select>
+                        <input type="button" value="Create Account" class="form-control btn btn-outline-primary" name="btnCreateAccount" id="btnCreateAccount">
+
+                        <!-- <button id="btnGoToPass" class="btn btn-outline-primary form-control btn-xl" style="height: 45px;">Continue To Password</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="../Bootstrap/bootstrap-5.2.3-distJS/bootstrap.bundle.min.js"></script>
+    <script src="../JavaScript/jquery.js"></script>
+    <script src="../JavaScript/register.js"></script>
+</html>

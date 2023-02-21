@@ -1,0 +1,8 @@
+.click{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.click:hover{
+    color: black;
+}

@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(185, 185, 246);
+}
+.form-control:focus{
+    color: black;
+    background-color: white;
+    outline: none;
+    box-shadow: none;
+}

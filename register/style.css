@@ -1,0 +1,14 @@
+.form-control:focus{
+    color: black;
+    background-color: white;
+    outline: none;
+    box-shadow: none;
+}
+.form .scrollable{
+    height: 70px;
+}
+.row .errors{
+    overflow-y: scroll;
+    height: 60px;
+    border: 1px solid black;
+}
